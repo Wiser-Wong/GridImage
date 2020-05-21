@@ -1,0 +1,3 @@
+rootProject.name='GrdImage'
+include ':app'
+include ':grid'

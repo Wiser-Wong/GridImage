@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.wiser.grid.grid.PhotoGridView
+        android:id="@+id/pgv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:pgv_addLayoutId="@layout/add"
+        app:pgv_addMode="end"
+        app:pgv_maxCounts="6"
+        app:pgv_photoDeleteResId="@+id/delete"
+        app:pgv_photoLayoutId="@layout/item"
+        app:pgv_photoResId="@+id/photo"
+        app:pgv_spanCount="3"/>
+</FrameLayout>
