@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onDeleteClick(View view, int position) {
                 Toast.makeText(MainActivity.this,"删除",Toast.LENGTH_LONG).show();
+                pgv.delete(position);
             }
         });
 
